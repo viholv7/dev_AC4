@@ -1,0 +1,32 @@
+header, main, footer {
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    margin: 50px;
+}
+
+section.motivos{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+main span{
+    color:blue;
+}
+footer{
+    margin-top: auto;
+    padding: 3px;
+    border: 3px solid #eee;
+}
+
+footer h4 span{
+    color:#ff4f4f;
+}
