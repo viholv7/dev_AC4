@@ -1,11 +1,15 @@
 header, main, footer {
     text-align: center;
 }
+header{
+    background-image: url(falar.jpg);
+    color: #ff4f4f;
+}
 
 body{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 50vh;
     font-family: 'Roboto', sans-serif;
 }
 
