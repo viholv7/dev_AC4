@@ -22,9 +22,15 @@ section.motivos{
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
 }
-    section.porque{
+
+section.porque{
         display: grid;
         grid-template-columns:  1fr 1fr 1fr 1fr;
+}
+
+section.cursos{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
 }
 
 main span{
